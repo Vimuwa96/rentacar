@@ -173,12 +173,25 @@
 
 .aboutus-card-header p {
   font-weight: 600;
+  color: rgb(1, 1, 1);
 }
 
-.aboutus-card:hover {
-  background-color: rgb(79, 93, 236);
+.aboutus-card-icon i,.aboutus-card-header p{
+    color: rgb(79, 93, 236);
+}
+
+.aboutus-card:hover .aboutus-card-icon i {
+    color: white !important;
+  }
+
+.aboutus-card:hover .aboutus-card-header p {
   color: white !important;
 }
+
+.aboutus-card:hover .aboutus-body{
+    color: white !important;
+}
+
 
 .aboutus-card:hover {
   background-color: rgb(79, 93, 236);
