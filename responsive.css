@@ -1,0 +1,8 @@
+@media only screen and (max-width: 370px) {
+    .numeber {
+      font-size: 12px!important;
+    }
+    .servicetag{
+        font-size: 10px!important;
+    }
+  }
