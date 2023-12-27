@@ -206,6 +206,14 @@
   margin-right: auto;
 }
 
+.seperate hr{
+    color: rgb(79, 93, 236);
+    align-content: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .choose{
     line-height: 2px;
 }
@@ -221,5 +229,51 @@
 
 .car-features-wrapper .nav .active{
     background-color: rgb(79, 93, 236)!important;
-    border-radius: 15px!important;
+    /* border-radius: 15px!important; */
+}
+
+.car-features-wrapper .nav{
+    border-radius: none !important;
+}
+
+
+.car-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;   
+    border-radius: 15px;
+}
+
+.car-card:hover{
+    border: 2px solid rgb(79, 93, 236);
+}
+
+.deal p{
+    color:rgb(79, 93, 236);
+}
+
+.price{
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.car-price{
+    border: 1px solid rgb(79, 93, 236);
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(79, 93, 236);
+    color: white;
+}
+
+.car-name p{
+    font-weight: 600;
+}
+
+.car-size p{
+    color: grey;
+    font-style: italic;
+}
+
+.car-details{
+    line-height: 8px;
 }
