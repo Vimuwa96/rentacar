@@ -1,170 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-.body-content{
-    overflow-x: hidden;
+.body-content {
+  overflow-x: hidden;
 }
 
 /* Upper Nav */
-.call-us-wrapper{
-    background-color:rgb(79,93,236);
-    justify-content: end;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px; 
+.call-us-wrapper {
+  background-color: rgb(79, 93, 236);
+  justify-content: end;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
-.call-us-wrapper p{
-    color: white;
-    display: flex;
-    padding-right: 25px;
-    font-size: 13px;
+.call-us-wrapper p {
+  color: white;
+  display: flex;
+  padding-right: 25px;
+  font-size: 13px;
 }
 
-.numeber{
-    text-decoration: none;
-    color: white;
+.numeber {
+  text-decoration: none;
+  color: white;
 }
-.socials-wrapper{
-    justify-content: start;
-    padding-left: 25px;
-    color:white;
-    font-size: 13px;
-}
-
-.social-icon{
-    padding-left: 5px;
+.socials-wrapper {
+  justify-content: start;
+  padding-left: 25px;
+  color: white;
+  font-size: 13px;
 }
 
-.social-icon i{
-    color: rgb(198, 194, 194);
+.social-icon {
+  padding-left: 5px;
 }
 
-.social-icon i:hover{
-    color: white;
-    cursor: pointer;
+.social-icon i {
+  color: rgb(198, 194, 194);
 }
 
-.login, .register{
-    color:white;
+.social-icon i:hover {
+  color: white;
+  cursor: pointer;
 }
 
-.login{
-    text-align: center;
-    padding: 2px 12px;
-    border-radius: 15px;
-    font-size: 11px; 
+.login,
+.register {
+  color: white;
+  cursor: pointer;
 }
 
-.register{
-    padding: 0px 12px;
-    font-size: 11px; 
+.login {
+  text-align: center;
+  padding: 2px 12px;
+  border-radius: 15px;
+  font-size: 11px;
 }
-.marquee-wrapper marquee{
-    color: white;
+
+.register {
+  padding: 0px 12px;
+  font-size: 11px;
+}
+.marquee-wrapper marquee {
+  color: white;
 }
 
 /* Main Nav */
-.nav-item a{
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5vh;
+.nav-item a {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vh;
 }
 
 .nav-item {
-    text-align: center;
-  }
-  
-  .nav-item a {
-    transition: 0.5s ease;
-    color: rgb(5, 4, 4);
-    text-decoration: none;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    font-weight: 500;
-  }
-  .nav-item a:hover {
-    border-top: 4px solid rgb(79,93,236);
-    border-bottom: 4px solid rgb(5, 5, 5);
-    color: rgb(11, 11, 91);
-  }
-
-
-
-.main-header-wrapper{
-    color: white;
+  text-align: center;
 }
 
-.welcome-wrapper p{
-font-size: 35px;
-font-weight: 700;
-line-height:4.5vh;
-text-align: start;
+.nav-item a {
+  transition: 0.5s ease;
+  color: rgb(5, 4, 4);
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  font-weight: 500;
 }
-.sub-para p{
-    color: grey;
-}
-
-.aboutusbtn{
-    background-color: rgb(79,93,236);
-    text-decoration: none;
-    color: white;
-    padding: 12px 20px;
-    /* border-radius: 15px; */
+.nav-item a:hover {
+  border-top: 4px solid rgb(79, 93, 236);
+  border-bottom: 4px solid rgb(5, 5, 5);
+  color: rgb(11, 11, 91);
 }
 
-.contactusbtn{
-    text-decoration: none;
-    color: white;  
+.main-header-wrapper {
+  color: white;
 }
 
-.card-wrapper{
-    border-radius: 15px;
-    background-color: white!important;
-    z-index: 150;
-    width: 60%;
-    color: black;
-    padding-top: 15px;
-    
+#mainheader {
+  background-image: url(/cover.png);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.card-main-heading{
-    background-color: rgb(79,93,236);
-    display: inline-block;
-    color: aliceblue;
-  
+.welcome-wrapper p {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 4.5vh;
+  text-align: start;
+}
+.sub-para p {
+  color: grey;
 }
 
-.lable p{
-    font-size: 12px;
-    font-weight: 600;
+.aboutusbtn {
+  background-color: rgb(79, 93, 236);
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px;
+  /* border-radius: 15px; */
 }
 
-.servicetext{
-    font-size: 13px;
-    color: grey;
+.contactusbtn {
+  text-decoration: none;
+  color: white;
 }
 
-.servicetext i{
-    padding-right: 10px;
+.card-wrapper {
+  border-radius: 15px;
+  background-color: white !important;
+  z-index: 150;
+  width: 60%;
+  color: black;
+  padding-top: 15px;
 }
 
-.formsearchbtn{
-    text-decoration: none;
-    background-color: rgb(79,93,236);
-    color: white;
-    padding: 12px 28px;
-    border-radius: 15px;
+.card-main-heading {
+  background-color: rgb(79, 93, 236);
+  display: inline-block;
+  color: aliceblue;
 }
 
-.card-wrapper-mobile{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 15px;
+.lable p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.servicetext {
+  font-size: 13px;
+  color: grey;
+}
+
+.servicetext i {
+  padding-right: 10px;
+}
+
+.formsearchbtn {
+  text-decoration: none;
+  background-color: rgb(79, 93, 236);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 15px;
+}
+
+.card-wrapper-mobile {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
 }
