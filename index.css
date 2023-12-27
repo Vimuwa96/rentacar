@@ -5,10 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+    
     
 }
 
+.body-content{
+    overflow-x: hidden;
+}
 
 /* Upper Nav */
 .call-us-wrapper{

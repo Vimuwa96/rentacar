@@ -27,287 +27,180 @@
     />
   </head>
   <body>
-    <!-- Upper Navigation Bar Start -->
-    <div class="upper-nav-wrapper">
-      <div class="row bg-dark">
-        <!-- left panel -->
-        <div class="col-5 g-0">
-          <div class="call-us-wrapper p-2 d-flex my-auto">
-            <p class="my-auto">Call Us : 076-4906767</p>
-          </div>
-        </div>
-        <!-- right panel -->
-        <div class="col-7 g-0">
-          <div class="right-panel-wrapper d-flex">
-            <!-- Socails -->
-            <div class="socials-wrapper d-flex my-auto">
-              <div class="social-icon my-auto px-2">
-                <i class="fa-brands fa-square-facebook fa-1x"></i>
-              </div>
-              <div class="social-icon my-auto px-2">
-                <i class="fa-brands fa-square-instagram"></i>
-              </div>
-              <div class="social-icon my-auto px-2">
-                <i class="fa-brands fa-square-twitter"></i>
-              </div>
-              <div class="social-icon my-auto px-2">
-                <i class="fa-brands fa-linkedin"></i>
-              </div>
+    <div class="body-content">
+      <!-- Upper Navigation Bar Start -->
+      <div class="upper-nav-wrapper">
+        <div class="row bg-dark">
+          <!-- left panel -->
+          <div class="col-5 col-lg-4 g-0">
+            <div class="call-us-wrapper p-2 d-flex my-auto">
+              <p class="my-auto">Call Us : 076-4906767</p>
             </div>
+          </div>
+          <!-- right panel -->
+          <div class="col-7 col-lg-8 g-0">
+            <div class="right-panel-wrapper d-flex">
+              <!-- Socails -->
+              <div class="socials-wrapper d-flex my-auto">
+                <div class="social-icon my-auto px-2">
+                  <i class="fa-brands fa-square-facebook fa-1x"></i>
+                </div>
+                <div class="social-icon my-auto px-2">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                <div class="social-icon my-auto px-2">
+                  <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                <div class="social-icon my-auto px-2">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
 
-            <!-- Login section -->
-            <div class="container d-flex justify-content-end">
-              <div class="login-section p-2 d-flex my-auto justify-content-end">
-                <div class="login d-flex my-auto">Login</div>
-                <div class="register d-flex my-auto">Register</div>
+              <!-- Login section -->
+              <div class="container d-flex justify-content-end">
+                <div
+                  class="login-section p-2 d-flex my-auto justify-content-end"
+                >
+                  <div class="login d-flex my-auto">Login</div>
+                  <div class="register d-flex my-auto">Register</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Upper Navigation Bar End -->
+      <!-- Upper Navigation Bar End -->
 
-    <!-- Main Menu Start -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container p-3">
-        <a class="navbar-brand" href="#"
-          ><img src="logo.png" alt="" width="100%" height="100%"
-        /></a>
+      <!-- Main Menu Start -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container p-3">
+          <a class="navbar-brand" href="#"
+            ><img src="logo.png" alt="" width="100%" height="100%"
+          /></a>
 
-        <!-- Mobile Menu Button -->
-        <!-- Small Menu -->
-        <div class="manu-bars d-flex my-auto d-block d-sm-none">
-          <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
-        </div>
+          <!-- Mobile Menu Button -->
+          <!-- Small Menu -->
+          <div class="manu-bars d-flex my-auto d-block d-sm-none">
+            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+          </div>
 
-        <!-- Tablet Menu -->
-        <div class="manu-bars d-flex my-auto d-none d-sm-block d-md-none">
-          <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
-        </div>
+          <!-- Tablet Menu -->
+          <div class="manu-bars d-flex my-auto d-none d-sm-block d-md-none">
+            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+          </div>
 
-        <!-- Tablet Menu -->
-        <div class="manu-bars d-flex my-auto d-none d-md-block d-lg-none">
-          <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
-        </div>
+          <!-- Tablet Menu -->
+          <div class="manu-bars d-flex my-auto d-none d-md-block d-lg-none">
+            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+          </div>
 
-        <!-- The overlay -->
-        <div id="myNav" class="overlay">
-          <!-- Button to close the overlay navigation -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
+          <!-- The overlay -->
+          <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
 
-          <!-- Overlay content -->
-          <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">CARS</a>
+              </li>
+
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">OUR TEAM</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item px-3">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">CARS</a>
-            </li>
+      <!-- Main Menu End -->
+      <!-- Main Header -->
+      <div class="container-fluid bg-dark">
+        <div class="main-header-wrapper">
+          <div class="container p-5">
+            <!-- Row -->
+            <div class="row">
+              <!-- Left -->
+              <div class="col-md-5 d-flex justify-content-center my-auto">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-12 d-flex justify-content-center my-auto">
+                    <div class="welcome-wrapper">
+                      <p
+                        class="d-flex justify-content-center my-auto"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                      >
+                        CHEAP CAR RENTAL IN YOUR DESIRED DESTINATION
+                      </p>
+                    </div>
+                  </div>
 
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
-
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">OUR TEAM</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Main Menu End -->
-    <!-- Main Header -->
-    <div class="container-fluid bg-dark">
-      <div class="main-header-wrapper">
-        <div class="container p-5">
-          <!-- Row -->
-          <div class="row">
-            <!-- Left -->
-            <div class="col-md-5 d-flex justify-content-center my-auto">
-              <div class="row d-flex justify-content-center">
-                <div class="col-12 d-flex justify-content-center my-auto">
-                  <div class="welcome-wrapper">
-                    <p
-                      class="d-flex justify-content-center my-auto"
-                      data-aos="fade-up"
-                      data-aos-duration="3000"
-                    >
-                      CHEAP CAR RENTAL IN YOUR DESIRED DESTINATION
+                  <div
+                    class="sub-para col-12 d-flex justify-content-center my-auto"
+                  >
+                    <p class="" data-aos="fade-up" data-aos-duration="2000">
+                      One of our top priorities is to adjust each package we
+                      offer to our customer’s exact needs. Rental Cars / Bike /
+                      Jeeps Starting @ $3 / Hrs
                     </p>
                   </div>
-                </div>
 
-                <div
-                  class="sub-para col-12 d-flex justify-content-center my-auto"
-                >
-                  <p class="" data-aos="fade-up" data-aos-duration="2000">
-                    One of our top priorities is to adjust each package we offer
-                    to our customer’s exact needs. Rental Cars / Bike / Jeeps
-                    Starting @ $3 / Hrs
-                  </p>
-                </div>
-
-                <div class="col-12 d-flex">
-                  <div
-                    class="buttons d-flex justify-content-evenly my-auto"
-                    data-aos="fade-up"
-                    data-aos-duration="1800"
-                  >
-                    <a href="" class="my-auto px-3 aboutusbtn px-3">About us</a>
-                    <a href="" class="my-auto px-3 contactusbtn"
-                      >Contact us<i
-                        class="fa-solid fa-arrow-up-right-from-square"
-                        style="padding-left: 10px"
-                      ></i
-                    ></a>
+                  <div class="col-12 d-flex">
+                    <div
+                      class="buttons d-flex justify-content-evenly my-auto"
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                    >
+                      <a href="" class="my-auto px-3 aboutusbtn px-3"
+                        >About us</a
+                      >
+                      <a href="" class="my-auto px-3 contactusbtn"
+                        >Contact us<i
+                          class="fa-solid fa-arrow-up-right-from-square"
+                          style="padding-left: 10px"
+                        ></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!-- Right -->
-            <div class="col-md-7 g-5 d-flex justify-content-center ">
-              <div class="card-wrapper d-sm-none d-md-block d-none d-sm-block">
-                <div class="card-main-heading p-2">
-                  <p class="my-auto">LET’S FIND YOUR PERFECT CAR</p>
-                </div>
-                <div class="form-section">
-                  <form action="">
-                    <div class="container p-4">
+              <!-- Right -->
+              <div class="col-md-7 g-5 d-flex justify-content-center">
+                <div
+                  class="card-wrapper d-sm-none d-md-block d-none d-sm-block"
+                >
+                  <div class="card-main-heading p-2">
+                    <p class="my-auto">LET’S FIND YOUR PERFECT CAR</p>
+                  </div>
+                  <div class="form-section">
+                    <form action="">
+                      <div class="container p-4">
                         <div class="row">
-                            <div class="col-12 mb-3">
-                              <div class="lable">
-                                <p>PICK-UP-LOCATION</p>
-                              </div>
-                              <div class="input">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="Katunayaka"
-                                />
-                              </div>
-                            </div>
-      
-                            <div class="col-12 mb-3">
-                              <div class="lable">
-                                <p>DROP-OFF LOCATION</p>
-                              </div>
-                              <div class="input">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="Colombo 07"
-                                />
-                              </div>
-                            </div>
-
-
-                            <div class="col-6 mb-4">
-                                <div class="lable">
-                                  <p>PICK-UP DATE & TIME</p>
-                                </div>
-                                <div class="input mb-2">
-                                  <input
-                                    type="DATE"
-                                    class="form-control"
-                                    placeholder="air-port"
-                                  />
-                                </div>
-
-                                <div class="input">
-                                    <input
-                                      type="time"
-                                      class="form-control"
-                                      placeholder="air-port"
-                                    />
-                                  </div>
-                              </div>
-
-
-                              <div class="col-6 mb-4">
-                                <div class="lable">
-                                  <p>DROP-OFF DATE & TIME</p>
-                                </div>
-                                <div class="input mb-2">
-                                  <input
-                                    type="date"
-                                    class="form-control"
-                                    placeholder="air-port"
-                                  />
-                                </div>
-                                <div class="input">
-                                    <input
-                                      type="time"
-                                      class="form-control"
-                                      placeholder="air-port"
-                                    />
-                                  </div>
-                              </div>
-
-                              <hr>
-
-                              <div class="col-6">
-                                <div class="col-12 d-flex my-auto">
-                                   <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i>24/7 Phone Support</p> 
-                                </div>
-                                <div class="col-12 d-flex my-auto">
-                                    <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i>No Credit Card Fees
-                                       </p> 
-                                 </div>
-                                 <div class="col-12 d-flex my-auto">
-                                    <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i> No Amendment Fees</p> 
-                                 </div>
-
-                              </div>
-
-                              <div class="col-6 my-auto d-flex justify-content-center">
-
-                                <a href="" class="formsearchbtn">Search <i class="fa-solid fa-arrow-right" style="padding-left:10px ;"></i></a>
-
-                              </div>
-
-
-                          </div>
-                    </div>
-                 
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container text-center p-4">
-        <div class="card-wrapper-mobile d-block d-sm-none">
-            <div class="card-main-heading p-2">
-              <p class="my-auto">LET’S FIND YOUR PERFECT CAR</p>
-            </div>
-            <div class="form-section">
-                <form action="">
-                  <div class="container p-4">
-                      <div class="row">
                           <div class="col-12 mb-3">
                             <div class="lable">
                               <p>PICK-UP-LOCATION</p>
@@ -320,7 +213,7 @@
                               />
                             </div>
                           </div>
-    
+
                           <div class="col-12 mb-3">
                             <div class="lable">
                               <p>DROP-OFF LOCATION</p>
@@ -334,82 +227,214 @@
                             </div>
                           </div>
 
+                          <div class="col-6 mb-4">
+                            <div class="lable">
+                              <p>PICK-UP DATE & TIME</p>
+                            </div>
+                            <div class="input mb-2">
+                              <input
+                                type="DATE"
+                                class="form-control"
+                                placeholder="air-port"
+                              />
+                            </div>
+
+                            <div class="input">
+                              <input
+                                type="time"
+                                class="form-control"
+                                placeholder="air-port"
+                              />
+                            </div>
+                          </div>
 
                           <div class="col-6 mb-4">
-                              <div class="lable">
-                                <p>PICK-UP DATE & TIME</p>
-                              </div>
-                              <div class="input mb-2">
-                                <input
-                                  type="DATE"
-                                  class="form-control"
-                                  placeholder="air-port"
-                                />
-                              </div>
-
-                              <div class="input">
-                                  <input
-                                    type="time"
-                                    class="form-control"
-                                    placeholder="air-port"
-                                  />
-                                </div>
+                            <div class="lable">
+                              <p>DROP-OFF DATE & TIME</p>
                             </div>
-
-
-                            <div class="col-6 mb-4">
-                              <div class="lable">
-                                <p>DROP-OFF DATE & TIME</p>
-                              </div>
-                              <div class="input mb-2">
-                                <input
-                                  type="date"
-                                  class="form-control"
-                                  placeholder="air-port"
-                                />
-                              </div>
-                              <div class="input">
-                                  <input
-                                    type="time"
-                                    class="form-control"
-                                    placeholder="air-port"
-                                  />
-                                </div>
+                            <div class="input mb-2">
+                              <input
+                                type="date"
+                                class="form-control"
+                                placeholder="air-port"
+                              />
                             </div>
-
-                            <hr>
-
-                            <div class="col-6">
-                              <div class="col-12 d-flex my-auto">
-                                 <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i>24/7 Phone Support</p> 
-                              </div>
-                              <div class="col-12 d-flex my-auto">
-                                  <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i>No Credit Card Fees
-                                     </p> 
-                               </div>
-                               <div class="col-12 d-flex my-auto">
-                                  <p class="d-flex my-auto servicetext"><i class="fa-solid fa-square-check d-flex my-auto"></i> No Amendment Fees</p> 
-                               </div>
-
+                            <div class="input">
+                              <input
+                                type="time"
+                                class="form-control"
+                                placeholder="air-port"
+                              />
                             </div>
+                          </div>
 
-                            <div class="col-6 my-auto d-flex justify-content-center">
+                          <hr />
 
-                              <a href="" class="formsearchbtn">Search <i class="fa-solid fa-arrow-right" style="padding-left:10px ;"></i></a>
-
+                          <div class="col-6">
+                            <div class="col-12 d-flex my-auto">
+                              <p class="d-flex my-auto servicetext">
+                                <i
+                                  class="fa-solid fa-square-check d-flex my-auto"
+                                ></i
+                                >24/7 Phone Support
+                              </p>
                             </div>
+                            <div class="col-12 d-flex my-auto">
+                              <p class="d-flex my-auto servicetext">
+                                <i
+                                  class="fa-solid fa-square-check d-flex my-auto"
+                                ></i
+                                >No Credit Card Fees
+                              </p>
+                            </div>
+                            <div class="col-12 d-flex my-auto">
+                              <p class="d-flex my-auto servicetext">
+                                <i
+                                  class="fa-solid fa-square-check d-flex my-auto"
+                                ></i>
+                                No Amendment Fees
+                              </p>
+                            </div>
+                          </div>
 
-
+                          <div
+                            class="col-6 my-auto d-flex justify-content-center"
+                          >
+                            <a href="" class="formsearchbtn"
+                              >Search
+                              <i
+                                class="fa-solid fa-arrow-right"
+                                style="padding-left: 10px"
+                              ></i
+                            ></a>
+                          </div>
                         </div>
+                      </div>
+                    </form>
                   </div>
-               
-                </form>
+                </div>
               </div>
+            </div>
           </div>
-    </div>
-    
-    <div class="aboutus-wrapper vh-100">
+        </div>
+      </div>
 
+      <div class="container text-center p-4">
+        <div class="card-wrapper-mobile d-block d-sm-none">
+          <div class="card-main-heading p-2">
+            <p class="my-auto">LET’S FIND YOUR PERFECT CAR</p>
+          </div>
+          <div class="form-section">
+            <form action="">
+              <div class="container p-4">
+                <div class="row">
+                  <div class="col-12 mb-3">
+                    <div class="lable">
+                      <p>PICK-UP-LOCATION</p>
+                    </div>
+                    <div class="input">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Katunayaka"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <div class="lable">
+                      <p>DROP-OFF LOCATION</p>
+                    </div>
+                    <div class="input">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Colombo 07"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-6 mb-4">
+                    <div class="lable">
+                      <p>PICK-UP DATE & TIME</p>
+                    </div>
+                    <div class="input mb-2">
+                      <input
+                        type="DATE"
+                        class="form-control"
+                        placeholder="air-port"
+                      />
+                    </div>
+
+                    <div class="input">
+                      <input
+                        type="time"
+                        class="form-control"
+                        placeholder="air-port"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-6 mb-4">
+                    <div class="lable">
+                      <p>DROP-OFF DATE & TIME</p>
+                    </div>
+                    <div class="input mb-2">
+                      <input
+                        type="date"
+                        class="form-control"
+                        placeholder="air-port"
+                      />
+                    </div>
+                    <div class="input">
+                      <input
+                        type="time"
+                        class="form-control"
+                        placeholder="air-port"
+                      />
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <div class="col-6">
+                    <div class="col-12 d-flex my-auto">
+                      <p class="d-flex my-auto servicetext">
+                        <i class="fa-solid fa-square-check d-flex my-auto"></i
+                        >24/7 Phone Support
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex my-auto">
+                      <p class="d-flex my-auto servicetext">
+                        <i class="fa-solid fa-square-check d-flex my-auto"></i
+                        >No Credit Card Fees
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex my-auto">
+                      <p class="d-flex my-auto servicetext">
+                        <i class="fa-solid fa-square-check d-flex my-auto"></i>
+                        No Amendment Fees
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-6 my-auto d-flex justify-content-center">
+                    <a href="" class="formsearchbtn"
+                      >Search
+                      <i
+                        class="fa-solid fa-arrow-right"
+                        style="padding-left: 10px"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="aboutus-wrapper vh-100"></div>
     </div>
 
     <!-- Bootstrap JS -->
