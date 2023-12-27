@@ -28,6 +28,10 @@
     font-size: 13px;
 }
 
+.numeber{
+    text-decoration: none;
+    color: white;
+}
 .socials-wrapper{
     justify-content: start;
     padding-left: 25px;
