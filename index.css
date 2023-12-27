@@ -102,7 +102,6 @@
 
 #mainheader {
   background-image: url(./cover.png);
-  background-attachment:fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -133,7 +132,7 @@
 .card-wrapper {
   border-radius: 15px;
   background-color: white !important;
-  z-index: 150;
+  z-index: 130;
   width: 60%;
   color: black;
   padding-top: 15px;

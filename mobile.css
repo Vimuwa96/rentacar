@@ -69,7 +69,7 @@
     top: -300px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-    z-index: 500;
+    z-index: 140;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   
