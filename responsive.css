@@ -6,10 +6,27 @@
     .servicetag{
         font-size: 10px!important;
     }
-  }
+
+
+
+}
+
+  
 
   @media only screen and (max-width: 1400px) {
     .servicetag{
         font-size: 10px!important;
     }
   }  
+
+
+  /* Iphone XR */
+  @media only screen and (max-width: 420px) {
+    #offers ,#economic ,#premium{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 13px!important;
+      font-weight: 500;
+  }
+  }
+  
