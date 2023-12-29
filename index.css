@@ -348,6 +348,7 @@
 
 .how-its-work-wrapper{
   background-image: url(./cover2.png);
+  background-position: center;
 }
 
 .how-its-work p {
@@ -357,5 +358,5 @@
 }
 
 .how-its-work-description p{
-  color: rgb(128, 125, 125);
+  color: rgb(178, 174, 174);
 }
