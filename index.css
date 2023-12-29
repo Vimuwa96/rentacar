@@ -260,6 +260,31 @@
     border: 2px solid rgb(79, 93, 236);
 }
 
+
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateY(0px);
+
+  }
+  25% {
+    transform: translateX(15px);
+    
+  }
+  50% {
+    transform: translateX(15px);
+    
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.car-card:hover .cars-card-img img{
+  animation: moveToLeft 5s linear infinite;
+}
+
 .deal p{
     color:rgb(79, 93, 236);
 }
@@ -318,4 +343,19 @@
 
 #service-card{
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  position: relative;
+}
+
+.how-its-work-wrapper{
+  background-image: url(./cover2.png);
+}
+
+.how-its-work p {
+  font-weight: 700;
+  font-size: 3vh;
+  color: white;
+}
+
+.how-its-work-description p{
+  color: rgb(128, 125, 125);
 }
