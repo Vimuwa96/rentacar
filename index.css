@@ -360,3 +360,59 @@
 .how-its-work-description p{
   color: rgb(178, 174, 174);
 }
+
+.how-icon i{
+  color: rgb(98, 96, 96);
+  padding: 35px;
+  border: 1px solid rgb(79, 93, 236);
+  border-radius: 50%;
+}
+
+.how-card:hover .how-icon i{
+  background-color: rgb(79, 93, 236);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+
+.how-description p{
+  color: white;
+  font-weight: 500;
+}
+
+.how-para p{
+  color: rgb(133, 129, 129);
+}
+
+.select-car-banner{
+  background-color: rgb(79, 93, 236);
+}
+
+.vr{
+  color: white;
+}
+
+.see-all-cars-btn{
+  color: rgb(79, 93, 236);
+  text-decoration: none;
+  background-color: white;
+  font-weight: 500;
+  padding: 15px 22px;
+  transition: 0.5s;
+}
+
+.see-all-cars-btn:hover{
+  color: rgb(79, 93, 236);
+  text-decoration: none;
+  background-color: rgb(179, 174, 174);
+  font-weight: 500;
+  padding: 15px 22px;
+}
+
+.book-my-ride h2{
+  color: white;
+}
+
+.book-my-ride p{
+  color: rgb(208, 205, 205);
+}
